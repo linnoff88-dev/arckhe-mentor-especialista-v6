@@ -32,8 +32,8 @@
     "exit 0",
     "exit 1",
     "regras.md",
-    "portão de execução",
-    "portão de previsão",
+    "portêo de execuçêo",
+    "portêo de previsêo",
     "git",
     "commit",
     "push",
@@ -81,7 +81,7 @@
     },
     {
       "titulo": "Módulo 4 · Provar e manter",
-      "resumo": "Passar nos 3 testes, entender o portão de previsão e ensinar coisa nova ao mentor.",
+      "resumo": "Passar nos 3 testes, entender o portêo de previsêo e ensinar coisa nova ao mentor.",
       "aulas": [
         12,
         13,

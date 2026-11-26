@@ -4,7 +4,7 @@
   <p class="kicker">Aula 6 de 14</p>
   <h1>Da pilha de texto <em>à wiki</em></h1>
   <figure class="cena"><img src="assets/img/aula-6.webp" width="1280" height="720" alt="Rui, consultor de vendas, transforma uma pilha bagunçada de papéis num fichário com abas coloridas e liga as fichas entre si com um barbante."></figure>
-  <p class="promise">Você consegue explicar por que o acervo cru não serve de memória para o mentor e pedir ao Claude Code a wiki que ele vai consultar, conferida por um validador.</p>
+  <p class="promise">Você consegue explicar por que o acervo cru nêo serve de memória para o mentor e pedir ao Claude Code a wiki que ele vai consultar, conferida por um validador.</p>
   <p class="why">Depois da coleta, você tem uma pilha enorme de texto. É tentador mandar o mentor ler tudo. Só que ele lê pedaços, perde o resto e começa a completar com o jeito genérico de qualquer IA.</p>
   <div class="em1min">
     <p class="k">Em 1 minuto</p>
@@ -17,13 +17,13 @@
 </header>
 
 <section class="step" data-kind="fundamento">
-  <h2><span class="n">1</span>Acervo cru não é memória</h2>
-  <p>A coleta das aulas 4 e 5 guardou tudo, sem edição, na pasta <span class="gterm" data-def="a pasta raw/ do mentor: o acervo cru, do jeito que foi coletado. Raw quer dizer cru em inglês. Depois de coletado, ninguém edita.">raw</span>. No piloto do Nei, eram 22 fontes e cerca de 189 mil palavras. É fala de live, com repetição, piada e frase cortada no meio.</p>
-  <p>O <span class="gterm" data-def="o programa da Anthropic que conversa com você no terminal e trabalha numa pasta do seu computador: lê, cria arquivos e roda comandos a seu pedido.">Claude Code</span> não consegue ler 189 mil palavras de uma vez com atenção. Ele precisa de um resumo organizado, que caiba na frente dele. Esse resumo organizado, que funciona como um fichário, é a <span class="gterm" data-def="o conjunto de páginas curtas, escritas a partir do acervo e ligadas entre si, que o mentor consulta antes de responder.">wiki</span>.</p>
-  <p data-ex="consultor de vendas">Rui coletou 30 vídeos do Otávio Lessa, um consultor fictício de vendas consultivas. Ao perguntar "como o Otávio abre uma reunião?", o mentor sem wiki citou só o último vídeo lido. Com a wiki, ele abriu a página do método e trouxe as 6 fontes que tratam disso.</p>
+  <h2><span class="n">1</span>Acervo cru nêo é memória</h2>
+  <p>A coleta das aulas 4 e 5 guardou tudo, sem ediçêo, na pasta <span class="gterm" data-def="a pasta raw/ do mentor: o acervo cru, do jeito que foi coletado. Raw quer dizer cru em inglês. Depois de coletado, ninguém edita.">raw</span>. No piloto do Nei, eram 22 fontes e cerca de 189 mil palavras. É fala de live, com repetiçêo, piada e frase cortada no meio.</p>
+  <p>O <span class="gterm" data-def="o programa da Anthropic que conversa com você no terminal e trabalha numa pasta do seu computador: lê, cria arquivos e roda comandos a seu pedido.">Claude Code</span> nêo consegue ler 189 mil palavras de uma vez com atençêo. Ele precisa de um resumo organizado, que caiba na frente dele. Esse resumo organizado, que funciona como um fichário, é a <span class="gterm" data-def="o conjunto de páginas curtas, escritas a partir do acervo e ligadas entre si, que o mentor consulta antes de responder.">wiki</span>.</p>
+  <p data-ex="consultor de vendas">Rui coletou 30 vídeos do Otávio Lessa, um consultor fictício de vendas consultivas. Ao perguntar "como o Otávio abre uma reuniêo?", o mentor sem wiki citou só o último vídeo lido. Com a wiki, ele abriu a página do método e trouxe as 6 fontes que tratam disso.</p>
   <figure class="largo">
     <div class="lado">
-      <div class="antes"><span class="rot">Acervo cru</span><p><b>Tamanho:</b> cerca de 189 mil palavras, em 22 arquivos.</p><p><b>Como o mentor usa:</b> lê pedaços e não sabe o que deixou de fora.</p></div>
+      <div class="antes"><span class="rot">Acervo cru</span><p><b>Tamanho:</b> cerca de 189 mil palavras, em 22 arquivos.</p><p><b>Como o mentor usa:</b> lê pedaços e nêo sabe o que deixou de fora.</p></div>
       <div class="depois"><span class="rot">Wiki</span><p><b>Tamanho:</b> 76 páginas curtas, e a porta de entrada tem 20 linhas.</p><p><b>Como o mentor usa:</b> entra pela porta, segue as ligações e só abre o cru para conferir uma frase.</p></div>
       <p class="saldo"><b>Saldo:</b> o mesmo conteúdo, num formato que o mentor consegue percorrer inteiro.</p>
     </div>
@@ -34,13 +34,13 @@
 <section class="step" data-kind="fundamento">
   <h2><span class="n">2</span>O cru fica intocável, e o hash denuncia</h2>
   <p>A wiki pode ser reescrita quantas vezes for preciso. O acervo cru, nunca. Se alguém "corrige" uma fala no cru, a prova de onde veio cada ideia some.</p>
-  <p>Para travar isso, a coleta gravou no <span class="gterm" data-def="a lista de tudo o que foi coletado, com o nome, a origem e a impressão digital de cada arquivo. Fica no arquivo MANIFESTO.json.">manifesto</span> um <span class="gterm" data-def="uma impressão digital do arquivo, calculada a partir de cada letra dele. Mudou uma vírgula, a impressão digital muda inteira.">hash</span> de cada arquivo. O <span class="gterm" data-def="um arquivo com instruções que o computador executa de uma vez, como um programa pequeno.">script</span> de conferência do kit, o stats.py, recalcula a impressão digital e compara. Rode depois de qualquer mexida na pasta.</p>
-  <p data-ex="professora">Marta apagou um palavrão de uma transcrição da Helena Duarte, uma especialista fictícia em avaliação escolar. Ela achou que era só uma limpeza. A conferência acusou o arquivo na hora. Ela pediu ao Claude Code: "desfaça a minha edição neste arquivo", e o aviso sumiu.</p>
+  <p>Para travar isso, a coleta gravou no <span class="gterm" data-def="a lista de tudo o que foi coletado, com o nome, a origem e a impressêo digital de cada arquivo. Fica no arquivo MANIFESTO.json.">manifesto</span> um <span class="gterm" data-def="uma impressêo digital do arquivo, calculada a partir de cada letra dele. Mudou uma vírgula, a impressêo digital muda inteira.">hash</span> de cada arquivo. O <span class="gterm" data-def="um arquivo com instruções que o computador executa de uma vez, como um programa pequeno.">script</span> de conferência do kit, o stats.py, recalcula a impressêo digital e compara. Rode depois de qualquer mexida na pasta.</p>
+  <p data-ex="professora">Marta apagou um palavrêo de uma transcriçêo da Helena Duarte, uma especialista fictícia em avaliaçêo escolar. Ela achou que era só uma limpeza. A conferência acusou o arquivo na hora. Ela pediu ao Claude Code: "desfaça a minha ediçêo neste arquivo", e o aviso sumiu.</p>
   <figure class="largo"><div class="terminal"><div class="tela-top"><i></i><i></i><i></i><span>Terminal</span></div>
 <pre><code><span class="pr">$</span> python3 tools/stats.py
 <span class="out">  - raw alterado depois da coleta (sha256 diferente): raw/guia/makeshorts-fabrica-de-shorts-com-ia-70fe54.md</span></code></pre>
-<p class="tela-nota">O $ só marca o começo do comando: não se digita. A linha de baixo é o aviso real do kit quando um arquivo do cru foi mexido.</p></div>
-  <figcaption>No <span class="gterm" data-def="a janela de texto onde você digita comandos para o computador, em vez de clicar, e lê a resposta logo abaixo.">terminal</span>, o aviso diz qual arquivo mudou. A saída é desfazer a edição, nunca regravar o hash.</figcaption></figure>
+<p class="tela-nota">O $ só marca o começo do comando: nêo se digita. A linha de baixo é o aviso real do kit quando um arquivo do cru foi mexido.</p></div>
+  <figcaption>No <span class="gterm" data-def="a janela de texto onde você digita comandos para o computador, em vez de clicar, e lê a resposta logo abaixo.">terminal</span>, o aviso diz qual arquivo mudou. A saída é desfazer a ediçêo, nunca regravar o hash.</figcaption></figure>
 </section>
 
 <section class="step" data-kind="fundamento">
@@ -68,7 +68,7 @@
 
 <section class="step" data-kind="fundamento">
   <h2><span class="n">4</span>Pronto é o validador terminar sem erro</h2>
-  <p>A sessão pode dizer "wiki pronta" sem estar. Por isso o kit traz um <span class="gterm" data-def="um pequeno programa do kit que confere um resultado e responde só aprovado ou reprovado, sem opinião.">validador</span> de ligações. Ele confere se todo link leva a uma página que existe e se toda fonte do manifesto ganhou página.</p>
+  <p>A sessêo pode dizer "wiki pronta" sem estar. Por isso o kit traz um <span class="gterm" data-def="um pequeno programa do kit que confere um resultado e responde só aprovado ou reprovado, sem opiniêo.">validador</span> de ligações. Ele confere se todo link leva a uma página que existe e se toda fonte do manifesto ganhou página.</p>
   <p>O resultado sai em <span class="gterm" data-def="o código que um programa devolve quando terminou sem problema. No kit, quer dizer aprovado.">exit 0</span> quando está tudo certo. Com problema, ele lista cada link quebrado e termina em <span class="gterm" data-def="o código que um programa devolve quando achou um problema. No kit, quer dizer reprovado; o texto acima diz qual foi.">exit 1</span>.</p>
   <figure class="largo"><div class="terminal"><div class="tela-top"><i></i><i></i><i></i><span>Terminal</span></div>
 <pre><code><span class="pr">$</span> python3 tools/validar_links.py
@@ -77,19 +77,19 @@ OK: 0 links quebrados</span>
 </code></pre>
 <p class="tela-nota">Saída real do mentor do Nei hoje. Quando aparece OK, ele terminou em exit 0.</p></div>
   <figcaption>Olhe a última linha: <b>0 links quebrados</b> é o único resultado que conta como pronto.</figcaption></figure>
-  <p data-ex="professora">Na primeira rodada, o validador de Marta acusou 3 links quebrados. Ela colou a lista de volta na conversa e pediu a correção. Na segunda rodada, terminou em 0.</p>
-  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Lista de erro longa não quer dizer que a wiki está perdida. Copie a lista inteira, cole na mesma conversa e escreva: "corrija só estes itens e rode o validador de novo".</p></div>
+  <p data-ex="professora">Na primeira rodada, o validador de Marta acusou 3 links quebrados. Ela colou a lista de volta na conversa e pediu a correçêo. Na segunda rodada, terminou em 0.</p>
+  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Lista de erro longa nêo quer dizer que a wiki está perdida. Copie a lista inteira, cole na mesma conversa e escreva: "corrija só estes itens e rode o validador de novo".</p></div>
 </section>
 
 <section class="practice" data-mode="prompt">
   <p class="pk">Pratique agora <span class="pcount">0/3</span></p>
   <h3 class="ph">Peça a wiki e confira pelo validador</h3>
   <p class="pgoal">No computador. Pronto quando o validador terminar em 0. Cerca de 10 minutos.</p>
-  <p class="psafe">A compilação só escreve na pasta wiki; o cru fica como está. Se der erro, cole a lista na conversa e peça a correção. Não fez as aulas 3 a 5? Use a pasta exemplo do kit, que já tem um acervo pequeno da Profa. Lia, uma especialista fictícia: rode só o comando do passo 3.</p>
+  <p class="psafe">A compilaçêo só escreve na pasta wiki; o cru fica como está. Se der erro, cole a lista na conversa e peça a correçêo. Nêo fez as aulas 3 a 5? Use a pasta exemplo do kit, que já tem um acervo pequeno da Profa. Lia, uma especialista fictícia: rode só o comando do passo 3.</p>
   <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">/&lt;slug&gt;-compilar
 
 Ao terminar, rode python3 tools/validar_links.py e mostre a saída inteira, sem resumir.
-Não altere nada dentro de raw/.</pre></div>
+Nêo altere nada dentro de raw/.</pre></div>
   <details class="mais"><summary>Veja o pedido já preenchido pelo Rui e o comando da pasta exemplo</summary>
     <p><b>Rui:</b> <code>/otavio-compilar</code> e as mesmas duas linhas de baixo.<br><b>Pasta exemplo do kit</b>, no terminal, dentro da pasta mentor-especialista: <code>python3 exemplo/tools/validar_links.py --raiz exemplo</code>. A saída real é "15 páginas, 48 links, 3 fontes" e "OK: 0 links quebrados".</p>
   </details>
@@ -98,7 +98,7 @@ Não altere nada dentro de raw/.</pre></div>
     <li><label><input type="checkbox" data-ptask="2"> <span>Copie o pedido, troque &lt;slug&gt; pelo nome curto do seu mentor e mande. Com 20 a 30 fontes, leva uns 5 minutos; acabou quando a saída do validador aparece.</span></label></li>
     <li><label><input type="checkbox" data-ptask="3"> <span>Leia a saída do validador: a linha "OK: 0 links quebrados" tem de aparecer. Se vier lista de erros, copie a lista, cole na mesma conversa e peça: "corrija só estes itens e rode de novo".</span></label></li>
   </ol>
-  <p class="pdone">Você transformou um acervo cru numa wiki ligada e provou isso com um validador, não com a palavra da IA.</p>
+  <p class="pdone">Você transformou um acervo cru numa wiki ligada e provou isso com um validador, nêo com a palavra da IA.</p>
 </section>
 
 <div class="fecho">
@@ -106,7 +106,7 @@ Não altere nada dentro de raw/.</pre></div>
     <p class="k">Cola da aula</p>
     <h3>Do cru à wiki</h3>
     <ol>
-      <li><span><b>Cru intocável</b>a pasta raw guarda a prova; o hash acusa qualquer edição.</span></li>
+      <li><span><b>Cru intocável</b>a pasta raw guarda a prova; o hash acusa qualquer ediçêo.</span></li>
       <li><span><b>Quatro tipos de página</b>fonte, tema, princípio e método, ligados entre si.</span></li>
       <li><span><b>Pronto = 0</b>validar_links.py sem erro, com a saída mostrada inteira.</span></li>
     </ol>
@@ -115,7 +115,7 @@ Não altere nada dentro de raw/.</pre></div>
     <p class="nak">Seu próximo passo</p>
     <p class="na-win">Você já sabe montar a memória do mentor e conferir que ela está inteira.</p>
     <p class="na-action">Hoje, abra uma página da pasta principios da sua wiki e leia o enunciado em voz alta. Anote se soa como o seu especialista ou como um manual qualquer.</p>
-    <p class="na-hook">Na próxima aula: o validador provou que as ligações estão certas. Mas ele não diz se a wiki fala como a pessoa. Isso quem julga é você.</p>
+    <p class="na-hook">Na próxima aula: o validador provou que as ligações estêo certas. Mas ele nêo diz se a wiki fala como a pessoa. Isso quem julga é você.</p>
   </div>
 </div>
 <nav class="lnav"><a href="#aula-5">← aula anterior</a><a class="next" href="#aula-7">próxima aula →</a></nav>
@@ -123,8 +123,8 @@ Não altere nada dentro de raw/.</pre></div>
 </div>
 <script type="application/json" id="cards-6">
 [
-  {"front":"Você achou um erro de digitação numa transcrição dentro de raw. Corrige ali ou não, e por quê?","back":"Não. O cru é a prova de onde veio cada ideia, e o hash no manifesto acusaria a mudança. Corrija na página da wiki."},
-  {"front":"A sessão escreveu \"wiki pronta, tudo certo\". O que você pede antes de acreditar?","back":"Que rode o validador de ligações e mostre a saída inteira. Pronto só se terminar em 0."},
+  {"front":"Você achou um erro de digitaçêo numa transcriçêo dentro de raw. Corrige ali ou nêo, e por quê?","back":"Nêo. O cru é a prova de onde veio cada ideia, e o hash no manifesto acusaria a mudança. Corrija na página da wiki."},
+  {"front":"A sessêo escreveu \"wiki pronta, tudo certo\". O que você pede antes de acreditar?","back":"Que rode o validador de ligações e mostre a saída inteira. Pronto só se terminar em 0."},
   {"front":"Uma página nova diz o que a especialista defende repetidamente. Em que pasta da wiki ela deve ficar?","back":"Em principios. Tema é o que ela domina; método é como ela faz; fonte é o que um material específico diz."}
 ]
 </script>
