@@ -10,9 +10,9 @@
 
 ## Fio condutor
 
-O **piloto real** do mentor do Nei (repo público `inematds/mentor-nei`, kit `inematds/mentor-especialista` v1.3). Números reais: 22 fontes (14 lives + 8 guias), cerca de 189 mil palavras; 13 lives coletadas pela legenda em 1,6 min; uma live sem legenda transcrita localmente em 7,7 min; wiki com 76 páginas e cerca de 1.300 links; 10 regras ativas com 40 citações; placar final 5/5, nota 8. Detalhes e casos: `~/projetos/mentor-especialista-curso/PLANO-CURSO.md`, `~/projetos/mentor-nei/PILOTO-DIARIO.md`, `~/projetos/mentor-nei/testes/aceitacao/RESULTADOS.md`, `~/projetos/mentor-nei/regras.md`, `~/projetos/mentor-nei/wiki/hot.md`.
+O **piloto real** do mentor do Nei (repo público `linnoff88-dev/mentor-nei`, kit `linnoff88-dev/mentor-especialista` v1.3). Números reais: 22 fontes (14 lives + 8 guias), cerca de 189 mil palavras; 13 lives coletadas pela legenda em 1,6 min; uma live sem legenda transcrita localmente em 7,7 min; wiki com 76 páginas e cerca de 1.300 links; 10 regras ativas com 40 citações; placar final 5/5, nota 8. Detalhes e casos: `~/projetos/mentor-especialista-curso/PLANO-CURSO.md`, `~/projetos/mentor-nei/PILOTO-DIARIO.md`, `~/projetos/mentor-nei/testes/aceitacao/RESULTADOS.md`, `~/projetos/mentor-nei/regras.md`, `~/projetos/mentor-nei/wiki/hot.md`.
 
-**Nunca** citar fontes externas de referência. O kit é uma soluçêo da comunidade INEMA. Só números reais.
+**Nunca** citar fontes externas de referência. O kit é uma soluçêo da comunidade ARCKHÉ. Só números reais.
 
 ## Aulas (promessa · tipo da prática · gancho)
 

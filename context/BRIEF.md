@@ -14,7 +14,7 @@
 - Kit: `~/projetos/mentor-especialista/` (README.md, docs/PLANO.md, docs/PILOTO.md, docs/ADAPTAR.md, CHANGELOG.md, novo-mentor.py, template/)
 - Piloto: `~/projetos/mentor-nei/` (PILOTO-DIARIO.md, testes/aceitacao/RESULTADOS.md, testes/respostas/*.md, regras.md, wiki/hot.md, ESCOPO.md, exemplos/hook-todo-stop/)
 - Se precisar de um detalhe já explicado com profundidade, o curso v2 está em `~/projetos/mentor-especialista-curso/curso/` (só como referência de fatos; NêO copie o estilo, o v6 é outro formato).
-- **Proibido:** citar fontes externas de referência. O kit é soluçêo da comunidade INEMA. Só números que estêo no material.
+- **Proibido:** citar fontes externas de referência. O kit é soluçêo da comunidade ARCKHÉ. Só números que estêo no material.
 
 ## Profissões dos exemplos (`p[data-ex]`)
 Alterne entre **professora** (Marta) e **consultor de vendas** (Rui), os dois personagens das cenas. O exemplo deve ser concreto: qual especialista ela/ele escolheu (invente um especialista **fictício** da área, nunca uma pessoa real além do Nei), qual fonte, o que o mentor respondeu.
